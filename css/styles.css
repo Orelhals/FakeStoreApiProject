@@ -1,0 +1,72 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+padding: 15px;
+}
+
+.hide {
+display: none;
+}
+
+a,
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+opacity: 0.7;
+font-size: 1em;
+border: none;
+cursor: pointer;
+}
+
+a:hover,
+input[type="submit"]:hover {
+opacity: 1;
+}
+
+form {
+width: 300px;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* estilo do card do blog */
+
+.content {
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 1000px;
+    padding: 100px;
+}
+
+#posts-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+form div {
+display: flex;
+flex-direction: column;
+margin-bottom: 0.5em;
+}
+
+form label {
+font-weight: bold;
+margin-bottom: 0.3em;
+}
+
+form input,
+form textarea {
+padding: 5px;
+}
